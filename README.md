@@ -13,7 +13,9 @@
 
 ## Introduction
 
-Provide a brief introduction to the SCD-30 and SHT31 Carbon Dioxide (CO2) Sensor. Explain what this sensor is used for and its significance.
+The SCD30 from Sensirion is a high-quality Nondispersive Infrared (NDIR) CO2 sensor with a range of 400 to 10,000 ppm and an accuracy of ±(30 ppm + 3%). It features integrated temperature and humidity sensors, making it a versatile choice for environmental monitoring. The sensor can also be calibrated for altitude and accept ambient pressure readings, further enhancing its precision. To simplify working with the SCD30, an Arduino library is available, making it easy to read CO2, humidity, and temperature data. This library can be downloaded via the Arduino Library manager by searching for 'SparkFun SCD30' or from the Documents tab above.
+
+The SCD30 Humidity and Temperature Sensor is compatible with the OpenLog Artemis datalogger system, allowing for automatic detection, scanning, configuration, and data logging without the need for complex programming or setup.
 
 ## Features
 
