@@ -1,7 +1,5 @@
 # SCD-30 and SHT31 Carbon Dioxide (CO2) Sensor
 
-![Sensor Image](sensor_image.png)
-
 ## Table of Contents
 
 - [Introduction](#introduction)
