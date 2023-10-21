@@ -1,4 +1,4 @@
-# SCD-30 and SHT31 Carbon Dioxide (CO2) Sensor
+# SCD-30 Carbon Dioxide (CO2) Sensor
 
 ## Table of Contents
 
