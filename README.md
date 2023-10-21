@@ -1,6 +1,3 @@
-Certainly! Here's a template that you can use for a README for the SCD-30 and SHT31 Carbon Dioxide (CO2) Sensor:
-
-```markdown
 # SCD-30 and SHT31 Carbon Dioxide (CO2) Sensor
 
 ![Sensor Image](sensor_image.png)
@@ -52,6 +49,7 @@ import sensor_library
 sensor = sensor_library.SCD30()
 data = sensor.read_data()
 print(data)
+
 ```
 
 ## Contributing
