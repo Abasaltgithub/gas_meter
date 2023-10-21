@@ -17,12 +17,19 @@ Provide a brief introduction to the SCD-30 and SHT31 Carbon Dioxide (CO2) Sensor
 
 ## Features
 
-List the key features of the sensor:
+- **Power Supply Voltage:** Operates on 3.3V - 5.5V.
+- **NDIR CO2 Sensor Technology:** Utilizes Non-Dispersive Infrared (NDIR) technology for accurate CO2 measurements.
+- **Integrated Temperature and Humidity Sensor:** Includes a built-in sensor for temperature and humidity readings.
+- **Dual-Channel Detection:** Provides dual-channel CO2 detection for superior stability and precision.
+- **Compact Form Factor:** Compact dimensions measuring 35 mm x 23 mm x 7 mm.
+- **Measurement Range:** Capable of measuring CO2 levels within the range of 400 ppm to 10,000 ppm.
+- **Accuracy:** Offers a high level of accuracy with a specification of ±(30 ppm + 3%).
+- **Low Current Consumption:** Operates with a low current consumption of 19 mA at a measurement rate of 1 per 2 seconds.
+- **Energy Efficiency:** Designed for energy efficiency, consuming only 120 mJ per measurement.
+- **Fully Calibrated and Linearized:** Sensor data is fully calibrated and linearized for precise readings.
+- **Digital Interface:** Provides the option of digital communication through UART or I2C.
 
-- Feature 1
-- Feature 2
-- Feature 3
-- ...
+
 
 ## Getting Started
 
