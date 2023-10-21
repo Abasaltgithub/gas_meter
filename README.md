@@ -50,15 +50,4 @@ print(data)
 
 ```
 
-## Contributing
-
-Explain how others can contribute to the project. This might include information on how to report issues, submit pull requests, or get in touch with the project maintainers.
-
-## License
-
-This section should include information about the license under which the project is released. You can use a license badge and provide details about the license terms.
-
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-```
-
-You should customize this template with specific information about the SCD-30 and SHT31 sensor, including their features, installation process, and usage examples. Additionally, you should include any specific installation or usage instructions relevant to these sensors. Replace "sensor_image.png" with an actual image of the sensor.
+![Sensor Image](sensor_image.png)
