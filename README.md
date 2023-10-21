@@ -50,4 +50,4 @@ print(data)
 
 ```
 
-![gas_meter](co2_data.jpeg)
+![CO2 Data](co2_data.jpeg)
