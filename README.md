@@ -1,5 +1,5 @@
 # SCD-30 Carbon Dioxide (CO2) Sensor
-<img src="co2_sensor.png" width="600">
+<img src="co2_sensor.png" width="400">
 
 ## Table of Contents
 
