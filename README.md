@@ -42,6 +42,5 @@ To kickstart your project, you will need the following hardware components:
 **Library Installation**: Install the HTU21D-F sensor library for Arduino. You can achieve this through the Arduino Library Manager. Open the Arduino IDE, navigate to `Sketch > Include Library > Manage Libraries`, search for "SparkFun SCD30 Arduino Library, and then install the library.
 
 Use `co2_meter.py`to plot the data.
-```
 
 ![CO2 Data](co2_data.jpeg)
