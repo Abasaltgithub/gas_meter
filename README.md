@@ -6,9 +6,8 @@ Image: The SCD-30 Carbon Dioxide (CO2) Sensor
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Hardware Requirements](#Hardware Requirements)
+- [Hardware Requirements](#Hardwarerequirements)
 - [Installation](#Installation)
-- [License](#license)
 
 ## Introduction
 
