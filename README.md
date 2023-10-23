@@ -7,8 +7,6 @@ Image: The SCD-30 Carbon Dioxide (CO2) Sensor
 - [Introduction](#introduction)
 - [Features](#features)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -33,19 +31,6 @@ The SCD30 Humidity and Temperature Sensor is compatible with the OpenLog Artemis
 - **Fully Calibrated and Linearized:** Sensor data is fully calibrated and linearized for precise readings.
 - **Digital Interface:** Provides the option of digital communication through UART or I2C.
 
-
-
-## Getting Started
-
-Explain how to get started with the SCD-30 and SHT31 sensor. This section should cover any prerequisites and installation instructions.
-
-### Prerequisites
-
-List any prerequisites or dependencies that users need before they can use the sensor. For example, if they need specific hardware, libraries, or software.
-
-### Installation
-
-Provide step-by-step installation instructions, including how to physically connect the sensor and how to set it up with any required software.
 
 ## Usage
 
