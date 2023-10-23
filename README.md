@@ -1,44 +1,37 @@
 # SCD-30 Carbon Dioxide (CO2) Sensor
-<img src="co2_sensor.png" width="400">
-Image: The SCD-30 Carbon Dioxide (CO2) Sensor
+![SCD-30 Carbon Dioxide (CO2) Sensor](co2_sensor.png)
 
 ## Table of Contents
-
 - [Introduction](#introduction)
 - [Features](#features)
-- [Hardware Requirements](#Hardwarerequirements)
-- [Installation](#Installation)
+- [Hardware Requirements](#hardware-requirements)
+- [Plotting Data](#plotting-data)
 
 ## Introduction
+The SCD-30 Carbon Dioxide (CO2) Sensor, manufactured by Sensirion, is a high-quality Non-dispersive Infrared (NDIR) CO2 sensor with an impressive range of 400 to 10,000 ppm and an accuracy of ±(30 ppm + 3%). It stands out with its integrated temperature and humidity sensors, making it a versatile choice for environmental monitoring. Moreover, the sensor can be calibrated for altitude and is capable of accepting ambient pressure readings, thus enhancing precision. To simplify handling the SCD-30, an Arduino library is available, facilitating the reading of CO2, humidity, and temperature data. This library can be easily obtained through the Arduino Library Manager by searching for "SparkFun SCD30 Arduino Library."
 
-The SCD30 from Sensirion is a high-quality Nondispersive Infrared (NDIR) CO2 sensor with a range of 400 to 10,000 ppm and an accuracy of ±(30 ppm + 3%). It features integrated temperature and humidity sensors, making it a versatile choice for environmental monitoring. The sensor can also be calibrated for altitude and accept ambient pressure readings, further enhancing its precision. To simplify working with the SCD30, an Arduino library is available, making it easy to read CO2, humidity, and temperature data. This library can be downloaded via the Arduino Library manager by searching for `SparkFun SCD30 Arduino Library`.
-
-The SCD30 Humidity and Temperature Sensor is compatible with the OpenLog Artemis datalogger system, allowing for automatic detection, scanning, configuration, and data logging without the need for complex programming or setup.
+The SCD-30 Humidity and Temperature Sensor is fully compatible with the OpenLog Artemis datalogger system, allowing for automatic detection, scanning, configuration, and data logging, eliminating the need for intricate programming or setup.
 
 ## Features
-
-- **Power Supply Voltage:** Operates on 3.3V - 5.5V.
+- **Power Supply Voltage:** Operates within the voltage range of 3.3V to 5.5V.
 - **NDIR CO2 Sensor Technology:** Utilizes Non-Dispersive Infrared (NDIR) technology for accurate CO2 measurements.
-- **Integrated Temperature and Humidity Sensor:** Includes a built-in sensor for temperature and humidity readings.
-- **Dual-Channel Detection:** Provides dual-channel CO2 detection for superior stability and precision.
-- **Compact Form Factor:** Compact dimensions measuring 35 mm x 23 mm x 7 mm.
+- **Integrated Temperature and Humidity Sensor:** Equipped with built-in sensors for temperature and humidity readings.
+- **Dual-Channel Detection:** Offers dual-channel CO2 detection for enhanced stability and precision.
+- **Compact Form Factor:** Compact in size, with dimensions measuring 35 mm x 23 mm x 7 mm.
 - **Measurement Range:** Capable of measuring CO2 levels within the range of 400 ppm to 10,000 ppm.
-- **Accuracy:** Offers a high level of accuracy with a specification of ±(30 ppm + 3%).
-- **Low Current Consumption:** Operates with a low current consumption of 19 mA at a measurement rate of 1 per 2 seconds.
-- **Energy Efficiency:** Designed for energy efficiency, consuming only 120 mJ per measurement.
-- **Fully Calibrated and Linearized:** Sensor data is fully calibrated and linearized for precise readings.
+- **Accuracy:** Boasts a high level of accuracy, adhering to a specification of ±(30 ppm + 3%).
+- **Low Current Consumption:** Operates with low current consumption, only drawing 19 mA at a measurement rate of 1 per 2 seconds.
+- **Energy Efficiency:** Designed with energy efficiency in mind, consuming merely 120 mJ per measurement.
+- **Fully Calibrated and Linearized:** The sensor data is fully calibrated and linearized, guaranteeing precise readings.
 - **Digital Interface:** Provides the option of digital communication through UART or I2C.
 
 ## Hardware Requirements
-
-To kickstart your project, you will need the following hardware components:
-
+To initiate your project, you'll require the following hardware components:
 - SCD-30 CO2 Sensor
 - Arduino board (e.g., Arduino Nano, Seeeduino Xiao)
 - Jumper wires
 - USB hub
 
-## Plotting data
-Run the `adafruit_scd30_test` script located within the Arduino IDE's examples, and subsequently employ the `co2_meter.py` script included in this repository to create a data visualization. In the plotted data, we are utilizing a **Clscea Aquarium CO2 Regulator**, a dual gauge with a bubble counter and solenoid valve, to maintain the CO2 level at 3%. Nevertheless, for precise gas regulation, you have the option to implement proportional valve PID control.
-
-<img src="data.png" width="800">
+## Plotting Data
+Execute the `adafruit_scd30_test` script found in the Arduino IDE's examples. Subsequently, employ the `co2_meter.py` script included in this repository to generate a data visualization. In the plotted data, we are utilizing a **Clscea Aquarium CO2 Regulator**, which is a dual gauge featuring a bubble counter and solenoid valve, to maintain the CO2 level at 3%. However, for precise gas regulation, you have the option to implement proportional valve PID control.
+![Data Visualization](data.png)
