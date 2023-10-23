@@ -39,6 +39,6 @@ To kickstart your project, you will need the following hardware components:
 - USB hub
 
 ## Plotting data
-Use `co2_meter.py`to plot the data.
+Execute the `adafruit_scd30_test` script found in the examples of Arduino IDE, and then use the `co2_meter.py` script in this repository to plot the data.
 
 ![CO2 Data](co2_data.jpeg)
