@@ -41,4 +41,4 @@ To kickstart your project, you will need the following hardware components:
 ## Plotting data
 Run the `adafruit_scd30_test` script located within the Arduino IDE's examples, and subsequently employ the `co2_meter.py` script included in this repository to create a data visualization. In the plotted data, we are utilizing a **Clscea Aquarium CO2 Regulator**, a dual gauge with a bubble counter and solenoid valve, to maintain the CO2 level at 3%. Nevertheless, for precise gas regulation, you have the option to implement proportional valve PID control.
 
-![CO2 Data](data.png)
+<img src="data.png" width="600">
