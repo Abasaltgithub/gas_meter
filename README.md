@@ -6,9 +6,8 @@ Image: The SCD-30 Carbon Dioxide (CO2) Sensor
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
+- [Hardware Requirements](#Hardware Requirements)
+- [Installation](#Installation)
 - [License](#license)
 
 ## Introduction
@@ -31,18 +30,32 @@ The SCD30 Humidity and Temperature Sensor is compatible with the OpenLog Artemis
 - **Fully Calibrated and Linearized:** Sensor data is fully calibrated and linearized for precise readings.
 - **Digital Interface:** Provides the option of digital communication through UART or I2C.
 
+## Hardware Requirements
 
-## Usage
+To kickstart your project, you will need the following hardware components:
 
-Show examples of how to use the sensor. You can include code snippets, diagrams, and explanations to help users understand how to work with the sensor.
+- HTU21D-F Temperature and Humidity Sensor
+- Arduino board (e.g., Arduino Nano, Seeeduino Xiao)
+- Jumper wires
+- USB hub
 
-```python
-# Example code to read data from the sensor
-import sensor_library
+## Installation
 
-sensor = sensor_library.SCD30()
-data = sensor.read_data()
-print(data)
+1. **Wiring**: Begin by connecting the HTU21D-F sensor to your Arduino board using jumper wires. Ensure that you connect the VCC (3.3V), GND, SDA (A4 pin), and SCL (A5 pin) pins correctly. For guidance, you can refer to the datasheet or the example wiring diagram provided.
+
+2. **Arduino IDE**: Confirm that you have the Arduino IDE installed on your computer. If it's not already installed, you can download it from the [Arduino website](https://www.arduino.cc/en/software). For Visual Studio users, PlatformIO is employed in this project.
+
+3. **Library Installation**: Install the HTU21D-F sensor library for Arduino. You can achieve this through the Arduino Library Manager. Open the Arduino IDE, navigate to `Sketch > Include Library > Manage Libraries`, search for "HTU21DF," and then install the library." If you're using PlatformIO, you must have the following lines in your Platformio.ini file:
+
+   ```
+   [env:nanoatmega328new]
+   platform = atmelavr
+   board = nanoatmega328new
+   framework = arduino
+   lib_deps = adafruit/Adafruit HTU21DF Library@^1.1.2
+   ```
+
+4. **Upload Code**: Open the Arduino IDE and import the sample sketch located within this repository, named `arduino_HTU21D_F_with_LED_blink.cpp`. In this illustration, the LED attached to pin number 8 blinks whenever a reading occurs.
 
 ```
 
