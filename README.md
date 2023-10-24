@@ -30,7 +30,8 @@ To initiate your project, you'll require the following hardware components:
 - SCD-30 CO2 Sensor
 - Arduino board (e.g., Arduino Nano, Seeeduino Xiao)
 - Jumper wires
-- USB hub
+- Analog output device (We are using USB-6363 NI Card)
+- Proportional valve ( We use 2555N12)
 
 ## Plotting Data
 Execute the `adafruit_scd30_test` script found in the Arduino IDE's examples. Subsequently, employ the `co2_meter.py` script included in this repository to generate a data visualization. In the plotted data, we are utilizing a **Clscea Aquarium CO2 Regulator**, which is a dual gauge featuring a bubble counter and solenoid valve, to maintain the CO2 level at 3%. However, for precise gas regulation, you have the option to implement proportional valve PID control.
